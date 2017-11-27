@@ -18,7 +18,7 @@ public class OmApplication {
 		ConfigurableApplicationContext context = SpringApplication.run(OmApplication.class, args);
 		ObjectMapper mapper = context.getBean(ObjectMapper.class);
 		System.out.println(mapper);
-		Student s = new Student("tom",25);
+		Student s = new Student("tim",25);
 		
 		try {
 			System.out.println(mapper.writeValueAsString(s));
