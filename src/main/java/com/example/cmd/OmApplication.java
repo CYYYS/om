@@ -27,7 +27,7 @@ public class OmApplication {
 			e.printStackTrace();
 		}
 		
-		 String json = "{\"name\":\"tom\",\"age\":52}";
+		 String json = "{\"name\":\"tom\",\"age\":22}";
 	      
 	      try {
 	             Student p2 = mapper.readValue(json, Student.class);
